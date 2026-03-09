@@ -17,6 +17,8 @@
 
 The project uses a "Parent Shell" architecture. The main interface resides in the root, while individual wellness modules are encapsulated in their own directories.
 
+Alternative wellness modules can be swapped in, as needed.
+
 ```text
 mental-wellness-app/
 │
