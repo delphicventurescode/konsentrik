@@ -21,7 +21,7 @@ Simply download the GitHub repo and open index.html in a browser. The code can r
 
 **[ UPDATE OF MARCH 9, 2026 ]**
 
-The Flask based app has also been tested.
+The Flask based app has also been tested. It works fine. The project is now in KOMPLETA status.
 
 ## 📂 Project Structure
 
