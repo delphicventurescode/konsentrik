@@ -18,7 +18,7 @@
 The project uses a "Parent Shell" architecture. The main interface resides in the root, while individual wellness modules are encapsulated in their own directories.
 
 ```text
-konsentrik/
+mental-wellness-app/
 │
 ├── index.html          # Main application shell & navigation
 ├── style.css           # Global minimalist styling
