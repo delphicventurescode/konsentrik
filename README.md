@@ -76,8 +76,6 @@ If you wish to serve the app over a local network or extend it with a backend:
 
 ## 📜 License
 
-## 📜 License
-
 Copyright (c) 2026 Anand Manikutty
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
