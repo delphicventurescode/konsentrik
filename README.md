@@ -17,7 +17,7 @@
 
 Simply download the GitHub repo and open index.html in a browser.
 
-(o) A Flask based app has also been created but it has not been tested.
+(x) A Flask based app has also been created but it has not been tested.
 
 
 ## 📂 Project Structure
