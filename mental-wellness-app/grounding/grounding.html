@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grounding Exercise</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 400px;
+            width: 90%;
+        }
+        #instruction { font-size: 1.2rem; margin-bottom: 20px; }
+        #step-text { font-size: 1.5rem; font-weight: bold; margin-bottom: 10px; }
+        button {
+            background-color: #66bb6a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        button:hover { background-color: #43a047; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div id="step-text">5 Things</div>
+        <div id="instruction">Identify 5 things you can <strong>see</strong> around you right now.</div>
+        <button onclick="nextStep()">Next</button>
+    </div>
+
+    <script>
+        let currentStep = 0;
+        const steps = [
+            { title: "5 Things", text: "Identify 5 things you can <strong>see</strong> around you." },
+            { title: "4 Things", text: "Identify 4 things you can <strong>touch</strong>." },
+            { title: "3 Things", text: "Identify 3 things you can <strong>hear</strong>." },
+            { title: "2 Things", text: "Identify 2 things you can <strong>smell</strong>." },
+            { title: "1 Thing", text: "Identify 1 thing you can <strong>taste</strong> (or one positive thing about yourself)." }
+        ];
+
+        function nextStep() {
+            currentStep++;
+            if (currentStep >= steps.length) {
+                document.getElementById('step-text').innerText = "Well Done";
+                document.getElementById('instruction').innerHTML = "You are here. You are safe. You are grounded.";
+                document.querySelector('button').style.display = 'none';
+            } else {
+                document.getElementById('step-text').innerText = steps[currentStep].title;
+                document.getElementById('instruction').innerHTML = steps[currentStep].text;
+            }
+        }
+    </script>
+</body>
+</html>

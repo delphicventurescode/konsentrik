@@ -1,0 +1,15 @@
+mental-wellness-app/
+│
+├── app.py                 # (Optional) Flask server to host the app
+├── index.html             # The main shell with tab navigation
+├── style.css              # Global styles for the shell and layout
+├── tabs.js                # Logic to switch between the sub-apps
+│
+├── breathing/             # Module 1: Guided breathing tool
+│   └── breathing.html     # HTML/JS/CSS for the breathing animation
+│
+├── mood/                  # Module 2: Daily mood tracking
+│   └── mood.html          # HTML/JS for logging and viewing moods
+│
+└── grounding/             # Module 3: Sensory grounding exercise
+    └── grounding.html     # HTML/JS for the "5-4-3-2-1" technique
