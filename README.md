@@ -13,7 +13,7 @@
 
 ---
 
-## 📂 Installation and Running
+## 📂 Installation and Running - TL;DR
 
 Simply download the GitHub repo and open index.html in a browser. The code can run in a browser itself.
 
