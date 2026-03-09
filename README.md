@@ -43,6 +43,8 @@ mental-wellness-app/
 └── grounding/          # Module: Sensory grounding task
     └── grounding.html
 
+```
+
 ## 🚀 Getting Started
 
 ### Method 1: Instant Launch (No Server)
