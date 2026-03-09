@@ -13,6 +13,13 @@
 
 ---
 
+## 📂 Installation and Running
+
+Simply download the GitHub repo and open index.html in a browser.
+
+(o) A Flask based app has also been created but it has not been tested.
+
+
 ## 📂 Project Structure
 
 The project uses a "Parent Shell" architecture. The main interface resides in the root, while individual wellness modules are encapsulated in their own directories.
