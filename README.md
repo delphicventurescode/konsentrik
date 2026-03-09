@@ -42,3 +42,36 @@ mental-wellness-app/
 │   └── mood.html
 └── grounding/          # Module: Sensory grounding task
     └── grounding.html
+
+## 🚀 Getting Started
+
+### Method 1: Instant Launch (No Server)
+Since **KONSENTRIK** is a static web application, you can run it locally without any installation:
+
+1.  **Clone or download** this repository.
+2.  **Navigate** to the root folder.
+3.  **Double-click `index.html`** to open it in your preferred web browser.
+
+### Method 2: Python/Flask (Optional)
+If you wish to serve the app over a local network or extend it with a backend:
+
+1.  **Ensure Python** is installed.
+2.  **Run the provided `app.py`**:
+    ```bash
+    python3 app.py
+    ```
+3.  **Access the app** at `http://127.0.0.1:5000`.
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend:** Vanilla JavaScript, HTML5, CSS3.
+* **Storage:** `localStorage` API for private, client-side data persistence.
+* **Architecture:** Iframe-based modularity for "Deep Generalist" productivity workflows.
+
+---
+
+## 📜 License
+
+This project is open-source. Feel free to fork, modify, and center yourself.
