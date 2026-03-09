@@ -15,10 +15,13 @@
 
 ## 📂 Installation and Running
 
-Simply download the GitHub repo and open index.html in a browser.
+Simply download the GitHub repo and open index.html in a browser. The code can run in a browser itself.
 
-(x) A Flask based app has also been created but it has not been tested.
+(+) A Flask based app has also been created but it has not been tested.
 
+**[ UPDATE OF MARCH 9, 2026 ]**
+
+The Flask based app has also been tested.
 
 ## 📂 Project Structure
 
